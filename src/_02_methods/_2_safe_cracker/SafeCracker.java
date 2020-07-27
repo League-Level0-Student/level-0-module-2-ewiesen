@@ -23,7 +23,12 @@ public class SafeCracker {
 		 * combinations
 		 */
 		
-
+		int number = 1;
+		
+		for (int i = 0; i < 10000000; i++) {	
+		tryCode(number);
+		number += 1;
+		}
 	}
 
 	static void tryCode(int guess) {
