@@ -14,16 +14,13 @@ public class SoundtrackToLife {
 		
 		// 2. Their answer is stored in the userMood variable. Print it out.
 		if (userMood == 0) {
-			JOptionPane.showMessageDialog(null, "happy");
-			//playVideo("http://bit.ly/video-for-happy");
+			playVideo("http://bit.ly/video-for-happy");
 		}
 		if (userMood == 1) {
-			JOptionPane.showMessageDialog(null, "sad");
-			//playVideo("http://bit.ly/video-for-sad");
+			playVideo("http://bit.ly/video-for-sad");
 		}
 		if (userMood == 2) {
-			JOptionPane.showMessageDialog(null, "angry");
-			//playVideo("http://bit.ly/video-for-angry");
+			playVideo("http://bit.ly/video-for-angry");
 		}
 		// 3. If they are in a stressed mood, use the playVideo method to play a calming song from YouTube.
 		
